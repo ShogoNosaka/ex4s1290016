@@ -19,9 +19,12 @@ class coin2 {
         
   }
   System.out.println("Heads:"+h+",Tails:"+t);
-  
-
-
+  if(h>t){
+    System.out.println("you won!");
+  }
+  else{
+    System.out.println("you lost!");
+  }
 
 }
 }
